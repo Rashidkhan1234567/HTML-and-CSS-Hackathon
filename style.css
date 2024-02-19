@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+}
+header li{
+    padding-left: 20px;
+}
+.body-2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.body-2 h1{
+    padding-top: 100px;
+    font-weight: 200;
+}
+.body-2 span{
+    font-weight: 900;
+}
+.body-2 .carde{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.body-2 figure{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.body-2 button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    /* padding: 20px; */
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+.body-3{
+    color: white;
+    background-color: rgb(24, 24, 24);
+    padding: 80px;
+}
+.body-3 .r{
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+}
+.body-3 .t{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body-3 .o{
+    text-align: center;
+}
+.body-3 .cardf{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.body-3 .cardg{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-direction: row-reverse;
+}
+.body-3 .cardh{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.body-3 button{
+    width: 200px;
+    border-radius: 30px;
+     border: 1px solid white;
+     color: white;
+     padding: 10px;
+     background-color: rgb(24, 24, 24);
+}
+.body-3 button a{
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    width: 10px;
+    margin-left: 5px;
+}
+footer td{
+    padding: 50px;
+}
+footer li{
+    list-style-type: none;
+}
